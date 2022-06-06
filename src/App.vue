@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      src: "http://51.161.115.48:8080/live/tito_robert/ZpAzL2e7FK/93.m3u8",
+      src: "http://51.161.115.48:8080/live/tito_robert/ZpAzL2e7FK/23517.m3u8",
     };
   },
 };
