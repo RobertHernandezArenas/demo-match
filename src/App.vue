@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <hls-player
+      playinline
       :width="900"
       :height="500"
       :autoplay="true"
@@ -9,8 +10,10 @@
       ref="myPlayer"
       :source="src"
     />
+
     <h2 class="ad">
-      --- Esta retransmición es sin animo de lucro y con fines de auditoria personal ---
+      --- Esta retransmición es sin animo de lucro y con fines de auditoria
+      personal ---
     </h2>
   </div>
 </template>
